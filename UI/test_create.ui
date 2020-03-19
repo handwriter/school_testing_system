@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Form</class>
+    <widget class="QWidget" name="Form">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>434</width>
+                <height>646</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Создание теста</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+            <item row="1" column="0">
+                <widget class="QPushButton" name="pushButton_2">
+                    <property name="text">
+                        <string>Сохранить тест</string>
+                    </property>
+                </widget>
+            </item>
+            <item row="0" column="0">
+                <layout class="QGridLayout" name="gridLayout">
+                    <item row="11" column="0" colspan="3">
+                        <widget class="QLabel" name="label_3">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Вариант №3</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="9" column="0" colspan="3">
+                        <widget class="QLabel" name="label_2">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Вариант №2</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="16" column="0" colspan="2">
+                        <widget class="QLineEdit" name="lineEdit_2">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="8" column="0" colspan="2">
+                        <widget class="QLineEdit" name="lineEdit">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="14" column="0" colspan="2">
+                        <widget class="QLineEdit" name="lineEdit_3">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="15" column="0" colspan="3">
+                        <widget class="QLabel" name="label_5">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Вариант №5</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="8" column="2">
+                        <widget class="QCheckBox" name="checkBox">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Правильный</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="0" column="0">
+                        <widget class="QRadioButton" name="radioButton">
+                            <property name="text">
+                                <string>Один вариант ответа</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="26" column="0" colspan="3">
+                        <widget class="QPushButton" name="pushButton">
+                            <property name="text">
+                                <string>Удалить вопрос</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="10" column="0" colspan="2">
+                        <widget class="QLineEdit" name="lineEdit_5">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="14" column="2">
+                        <widget class="QCheckBox" name="checkBox_4">
+                            <property name="text">
+                                <string>Правильный</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="18" column="0" colspan="3">
+                        <widget class="QLineEdit" name="lineEdit_6">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="17" column="0" colspan="3">
+                        <widget class="QLabel" name="label_6">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Ответ:</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="1" column="0" colspan="3">
+                        <widget class="QLabel" name="label_7">
+                            <property name="text">
+                                <string>Список вопросов:</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="12" column="2">
+                        <widget class="QCheckBox" name="checkBox_3">
+                            <property name="text">
+                                <string>Правильный</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="4" column="0" colspan="3">
+                        <widget class="QPlainTextEdit" name="plainTextEdit"/>
+                    </item>
+                    <item row="13" column="0" colspan="3">
+                        <widget class="QLabel" name="label_4">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Вариант №4</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="0" column="1">
+                        <widget class="QRadioButton" name="radioButton_2">
+                            <property name="text">
+                                <string>Выбор</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="3" column="0" colspan="3">
+                        <widget class="QLabel" name="label_8">
+                            <property name="text">
+                                <string>Текст вопроса:</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="16" column="2">
+                        <widget class="QCheckBox" name="checkBox_5">
+                            <property name="text">
+                                <string>Правильный</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="7" column="0" colspan="3">
+                        <widget class="QLabel" name="label">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Вариант №1</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="2" column="0" colspan="3">
+                        <widget class="QListWidget" name="listWidget">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <item>
+                                <property name="text">
+                                    <string>Новый вопрос</string>
+                                </property>
+                            </item>
+                        </widget>
+                    </item>
+                    <item row="10" column="2">
+                        <widget class="QCheckBox" name="checkBox_2">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Правильный</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="12" column="0" colspan="2">
+                        <widget class="QLineEdit" name="lineEdit_4">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="27" column="0" colspan="3">
+                        <widget class="QPushButton" name="pushButton_3">
+                            <property name="text">
+                                <string>Сохранить вопрос</string>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
